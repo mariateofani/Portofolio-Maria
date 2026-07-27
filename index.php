@@ -1,46 +1,32 @@
 <?php
-// Memanggil bagian header
-include 'includes/head.php';
+require_once 'includes/head.php';
 ?>
 
 <body class="bg-slate-950 text-white overflow-x-hidden">
 
-    <!-- Background Galaxy -->
-    <div id="galaxy-background"></div>
-
-    <!-- Navbar -->
-    <?php include 'includes/navbar.php'; ?>
+    <?php require_once 'includes/navbar.php'; ?>
 
     <main>
 
-        <!-- Hero Section -->
-        <?php include 'pages/home.php'; ?>
+        <?php require_once 'pages/home.php'; ?>
 
-        <!-- About -->
-        <?php include 'pages/about.php'; ?>
+        <?php require_once 'pages/about.php'; ?>
 
-        <!-- Skills -->
-        <?php include 'pages/skills.php'; ?>
+        <?php require_once 'pages/skills.php'; ?>
 
-        <!-- Projects -->
-        <?php include 'pages/projects.php'; ?>
+        <?php require_once 'pages/projects.php'; ?>
 
-        <!-- Experience -->
-        <?php include 'pages/experience.php'; ?>
+        <?php require_once 'pages/experience.php'; ?>
 
-        <!-- Certificates -->
-        <?php include 'pages/certificates.php'; ?>
+        <?php require_once 'pages/certificates.php'; ?>
 
-        <!-- Contact -->
-        <?php include 'pages/contact.php'; ?>
+        <?php require_once 'pages/contact.php'; ?>
 
     </main>
 
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
+    <?php require_once 'includes/footer.php'; ?>
 
-    <!-- Javascript -->
-    <?php include 'includes/scripts.php'; ?>
+    <?php require_once 'includes/scripts.php'; ?>
 
 </body>
 </html>
