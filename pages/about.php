@@ -12,14 +12,14 @@
             </p>
 
             <h2 class="text-5xl font-bold text-white">
-
                 Know Me Better
-
             </h2>
 
         </div>
 
+
         <div class="grid lg:grid-cols-2 gap-20 items-center">
+
 
             <!-- Left -->
 
@@ -29,17 +29,20 @@
                     class="absolute -top-10 -left-10 w-56 h-56 bg-violet-600/20 rounded-full blur-3xl">
                 </div>
 
+
                 <div
                     class="relative rounded-3xl overflow-hidden border border-white/10">
 
                     <img
                         src="assets/img/profile/profile.png"
-                        alt="Maria"
+                        alt="Maria Teofani Evernita Sagala"
                         class="w-full h-full object-cover">
 
                 </div>
 
             </div>
+
+
 
             <!-- Right -->
 
@@ -48,33 +51,39 @@
                 <h3
                     class="text-4xl font-bold text-white mb-6">
 
-                    Hi, I'm Maria Teofani👋
+                    Hi, I'm Maria Teofani 👋
 
                 </h3>
+
 
                 <p
                     class="text-slate-400 leading-8 mb-6">
 
-                    Saya adalah seorang Full Stack Web Developer yang
-                    memiliki ketertarikan pada dunia Web Development,
-                    UI Design, dan Backend Development.
+                    Saya adalah mahasiswa D3 Teknik Informatika yang
+                    memiliki ketertarikan pada Web Development, UI/UX Design,
+                    dan pengembangan aplikasi digital.
 
                 </p>
+
 
                 <p
                     class="text-slate-400 leading-8 mb-10">
 
-                    Saya senang membangun website modern menggunakan
-                    PHP Native, JavaScript, Tailwind CSS dan MySQL.
-                    Saya juga selalu belajar teknologi baru untuk
-                    meningkatkan kualitas project yang saya buat.
+                    Saya memiliki pengalaman dalam membuat beberapa project
+                    seperti website survey kepuasan pasien, sistem manajemen
+                    administrasi, desain aplikasi UI/UX, serta animasi game
+                    menggunakan Blender. Saya terus mengembangkan kemampuan
+                    dalam teknologi baru untuk menghasilkan solusi digital
+                    yang kreatif dan bermanfaat.
 
                 </p>
 
+
+
                 <!-- Information -->
 
-                <div
-                    class="grid grid-cols-2 gap-6">
+                <div class="grid grid-cols-2 gap-6">
+
 
                     <div>
 
@@ -88,6 +97,7 @@
 
                     </div>
 
+
                     <div>
 
                         <h4 class="text-slate-500">
@@ -100,29 +110,33 @@
 
                     </div>
 
+
                     <div>
 
                         <h4 class="text-slate-500">
-                            Address
+                            Location
                         </h4>
 
                         <p class="text-white mt-2">
-                            Jawa Timur, Indonesia
+                            Madiun, Jawa Timur, Indonesia
                         </p>
 
                     </div>
+
 
                     <div>
 
                         <h4 class="text-slate-500">
-                            Status
+                            Education
                         </h4>
 
                         <p class="text-green-400 mt-2">
-                            Mahasiswa D3 Teknik Informatika PSDKU UniversitaS Sebelas Maret di Madiun
+                            D3 Teknik Informatika
+                            Universitas Sebelas Maret PSDKU Madiun
                         </p>
 
                     </div>
+
 
                 </div>
 

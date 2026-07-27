@@ -6,7 +6,7 @@
 
             <h2 class="text-2xl font-bold text-white">
 
-                Maria
+                Maria Teofani Evernita Sagala
 
             </h2>
 

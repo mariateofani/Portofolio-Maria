@@ -28,18 +28,18 @@
             <div class="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 hover:border-violet-500 transition duration-300 hover:-translate-y-2">
 
                 <img
-                    src="assets/img/certificates/certificate1.jpg"
+                    src="assets/img/certificates/image.png"
                     alt="Certificate"
                     class="w-full h-56 object-cover">
 
                 <div class="p-6">
 
                     <h3 class="text-2xl font-semibold text-white">
-                        Web Development
+                        Title
                     </h3>
 
                     <p class="text-slate-400 mt-3">
-                        Dicoding Indonesia
+                        Deskripsi sertifikat yang diperoleh, misalnya nama kursus atau pelatihan.
                     </p>
 
                     <a
@@ -58,18 +58,18 @@
             <div class="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 hover:border-violet-500 transition duration-300 hover:-translate-y-2">
 
                 <img
-                    src="assets/img/certificates/certificate2.jpg"
+                    src="assets/img/certificates/image.png"
                     alt="Certificate"
                     class="w-full h-56 object-cover">
 
                 <div class="p-6">
 
                     <h3 class="text-2xl font-semibold text-white">
-                        JavaScript
+                        Title
                     </h3>
 
                     <p class="text-slate-400 mt-3">
-                        Progate
+                        Deskripsi sertifikat yang diperoleh, misalnya nama kursus atau pelatihan.
                     </p>
 
                     <a
@@ -88,18 +88,18 @@
             <div class="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 hover:border-violet-500 transition duration-300 hover:-translate-y-2">
 
                 <img
-                    src="assets/img/certificates/certificate3.jpg"
+                    src="assets/img/certificates/image.png"
                     alt="Certificate"
                     class="w-full h-56 object-cover">
 
                 <div class="p-6">
 
                     <h3 class="text-2xl font-semibold text-white">
-                        UI / UX Design
+                        Title
                     </h3>
 
                     <p class="text-slate-400 mt-3">
-                        Coursera
+                        Deskripsi sertifikat yang diperoleh, misalnya nama kursus atau pelatihan.
                     </p>
 
                     <a

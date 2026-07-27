@@ -25,7 +25,14 @@
             <span
                 class="inline-flex rounded-full border border-violet-500/30 bg-violet-500/10 px-4 py-2 text-sm text-violet-300">
 
-                ✨ Welcome To My Portfolio 
+                ✨ Welcome To My Portfolio
+
+            </span>
+
+            <span class="mt-4 inline-flex rounded-full border border-sky-500/30
+bg-sky-500/10 px-4 py-2 text-sm text-sky-300">
+
+                🎓 D3 Teknik Informatika Student
 
             </span>
 
@@ -39,7 +46,7 @@
 
                 <span class="bg-gradient-to-r from-violet-400 to-sky-400 bg-clip-text text-transparent">
 
-                    Maria
+                    Maria Teofani Evernita Sagala
 
                 </span>
 
@@ -47,36 +54,39 @@
 
             <h2 class="mt-6 text-2xl font-semibold text-slate-300 md:text-3xl">
 
-                Full Stack Web Developer
+                D3 Informatics Engineering Student | Web Developer
 
             </h2>
 
             <p class="mt-8 max-w-xl text-lg leading-8 text-slate-400">
 
-                Saya adalah Web Developer yang berfokus pada pembuatan website modern,
-                responsif, dan interaktif menggunakan PHP Native, JavaScript,
-                Tailwind CSS, dan MySQL.
+                Saya adalah mahasiswa D3 Teknik Informatika yang memiliki ketertarikan
+                pada pengembangan website, UI/UX Design, dan teknologi kreatif.
+                Berpengalaman membuat beberapa project seperti sistem survey kepuasan pasien,
+                manajemen administrasi, desain aplikasi, dan animasi menggunakan Blender.
 
             </p>
 
             <div class="mt-10 flex items-center gap-5">
 
-                <a href="https://github.com/mariateofani" class="text-slate-400 hover:text-violet-400 transition text-2xl">
+                <a href="https://github.com/mariateofani"
+                    class="text-slate-400 hover:text-violet-400 transition text-2xl">
                     <i class="fa-brands fa-github"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/mariateofani/" class="text-slate-400 hover:text-violet-400 transition text-2xl">
+                <a href="https://www.linkedin.com/in/mariateofani/"
+                    class="text-slate-400 hover:text-violet-400 transition text-2xl">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
 
-                <a href="https://www.instagram.com/mariatheofany_11/" class="text-slate-400 hover:text-violet-400 transition text-2xl">
+                <a href="https://www.instagram.com/mariatheofany_11/"
+                    class="text-slate-400 hover:text-violet-400 transition text-2xl">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
 
                 <a href="https://wa.me/6281232882176" class="text-slate-400 hover:text-violet-400 transition text-2xl">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
-
             </div>
 
         </div>
@@ -100,7 +110,8 @@
             <!-- Profile Image -->
             <div class="relative z-10 overflow-hidden rounded-full border-4 border-violet-500/30 w-[280px] h-[280px]">
 
-                <img src="assets/img/profile/profile.png" alt="Maria" class="h-full w-full object-cover">
+                <img src="assets/img/profile/profile.png" alt="Maria Teofani Evernita Sagala - Informatics Student"
+                    class="h-full w-full object-cover">
 
             </div>
 
@@ -120,6 +131,26 @@
             </div>
 
         </div>
+        <div class="mt-10 flex gap-5">
 
+            <a href="#projects"
+                class="rounded-full bg-gradient-to-r from-violet-500 to-sky-500 px-6 py-3 text-white font-semibold hover:scale-105 transition">
+
+                View Projects
+
+            </a>
+
+
+            <a href="assets/cv/Maria_CV.pdf"
+                class="rounded-full border border-violet-400/40 px-6 py-3 text-violet-300 hover:bg-violet-500/10 transition">
+
+                Download CV
+
+            </a>
+
+        </div>
     </div>
+
+
+
 </section>
