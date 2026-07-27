@@ -1,1 +1,175 @@
 @import "tailwindcss";
+
+/*==========================
+    STARS
+==========================*/
+
+#stars{
+
+    position:absolute;
+    inset:0;
+
+    overflow:hidden;
+
+}
+
+#stars span{
+
+    position:absolute;
+
+    background:white;
+
+    border-radius:9999px;
+
+    opacity:.3;
+
+    box-shadow:
+
+        0 0 6px white,
+
+        0 0 12px white;
+
+    animation:twinkle infinite ease-in-out;
+
+}
+
+@keyframes twinkle{
+
+    0%{
+
+        opacity:.2;
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        opacity:1;
+
+        transform:scale(1.8);
+
+    }
+
+    100%{
+
+        opacity:.2;
+
+        transform:scale(1);
+
+    }
+
+}
+
+.nebula{
+
+    position:absolute;
+
+    border-radius:9999px;
+
+    filter:blur(160px);
+
+    opacity:.25;
+
+}
+
+/* ==========================
+   SHOOTING STAR
+========================== */
+
+.shooting-star {
+
+    position: absolute;
+
+    top: -10%;
+    left: 100%;
+
+    width: 180px;
+    height: 2px;
+
+    background: linear-gradient(
+        90deg,
+        rgba(255,255,255,1),
+        rgba(255,255,255,0)
+    );
+
+    border-radius: 999px;
+
+    opacity: 0;
+
+    transform: rotate(-25deg);
+
+    pointer-events: none;
+
+}
+
+.shooting-star::before{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+    top:-2px;
+
+    width:8px;
+    height:8px;
+
+    background:white;
+
+    border-radius:999px;
+
+    box-shadow:
+        0 0 10px white,
+        0 0 25px white,
+        0 0 40px white;
+
+}
+
+.shooting{
+
+    animation:shoot 1.8s linear forwards;
+
+}
+
+@keyframes shoot{
+
+    0%{
+
+        opacity:0;
+
+        transform:
+            translate(0,0)
+            rotate(-25deg);
+
+    }
+
+    10%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+            translate(-1400px,650px)
+            rotate(-25deg);
+
+    }
+
+}
+
+#shooting-stars{
+
+    position:absolute;
+
+    inset:0;
+
+    overflow:hidden;
+
+    pointer-events:none;
+
+}
