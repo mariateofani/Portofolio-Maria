@@ -87,6 +87,22 @@ bg-sky-500/10 px-4 py-2 text-sm text-sky-300">
                 <a href="https://wa.me/6281232882176" class="text-slate-400 hover:text-violet-400 transition text-2xl">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
+
+                <a href="#projects"
+                class="rounded-full bg-gradient-to-r from-violet-500 to-sky-500 px-6 py-3 text-white font-semibold hover:scale-105 transition">
+
+                View Projects
+
+            </a>
+
+
+            <a href="assets/cv/Maria_CV.pdf"
+                class="rounded-full border border-violet-400/40 px-6 py-3 text-violet-300 hover:bg-violet-500/10 transition">
+
+                Download CV
+
+            </a>
+            
             </div>
 
         </div>
@@ -129,24 +145,6 @@ bg-sky-500/10 px-4 py-2 text-sm text-sky-300">
 
             <div class="w-2 h-2 bg-violet-400 rounded-full mt-2 animate-bounce">
             </div>
-
-        </div>
-        <div class="mt-10 flex gap-5">
-
-            <a href="#projects"
-                class="rounded-full bg-gradient-to-r from-violet-500 to-sky-500 px-6 py-3 text-white font-semibold hover:scale-105 transition">
-
-                View Projects
-
-            </a>
-
-
-            <a href="assets/cv/Maria_CV.pdf"
-                class="rounded-full border border-violet-400/40 px-6 py-3 text-violet-300 hover:bg-violet-500/10 transition">
-
-                Download CV
-
-            </a>
 
         </div>
     </div>
